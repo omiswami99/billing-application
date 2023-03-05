@@ -1,0 +1,319 @@
+.form-div {
+    width     : 100%;
+    overflow-x: auto;
+  }
+  
+  .form-div * {
+    -webkit-transition: all linear 0.3s;
+    transition        : all linear 0.3s;
+  }
+  
+  .form-div a {
+    text-decoration: none;
+    font-family    : 'Segoe UI';
+    font-size      : 1rem;
+    color          : #26f;
+  }
+  
+  .form-div a:hover {
+    color    : #6f00ff;
+    font-size: 1rem;
+  }
+  
+  .form-div select {
+    background-color  : #fff;
+    padding           : 9px 15px;
+    -webkit-transition: all linear 0.3s;
+    transition        : all linear 0.3s;
+    border            : none;
+    border-bottom     : 2.3px solid #26f;
+    border-radius     : 3px;
+    font-family       : 'Segoe UI';
+    font-size         : 1rem;
+    font-weight       : bold;
+    color             : #666;
+    width             : 250px;
+    margin            : 10px 20px;
+    -webkit-box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.07);
+    box-shadow        : 0px 8px 10px -5px rgba(0, 0, 0, 0.07);
+  }
+  
+  .form-div select:focus {
+    outline           : none;
+    -webkit-box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.067), 8px 4px 10px -5px rgba(0, 0, 0, 0.067), -8px 4px 10px -5px rgba(0, 0, 0, 0.067);
+    box-shadow        : 0px 8px 10px -5px rgba(0, 0, 0, 0.067), 8px 4px 10px -5px rgba(0, 0, 0, 0.067), -8px 4px 10px -5px rgba(0, 0, 0, 0.067);
+  }
+  
+  .form-div select::-webkit-input-placeholder {
+    color: #aaa;
+  }
+  
+  .form-div select:-ms-input-placeholder {
+    color: #aaa;
+  }
+  
+  .form-div select::-ms-input-placeholder {
+    color: #aaa;
+  }
+  
+  .form-div select::placeholder {
+    color: #aaa;
+  }
+  
+  .form-div input {
+    background-color  : #fff;
+    padding           : 9px 15px;
+    -webkit-transition: all linear 0.3s;
+    transition        : all linear 0.3s;
+    border            : none;
+    border-bottom     : 2.3px solid #26f;
+    border-radius     : 3px;
+    font-family       : 'Segoe UI';
+    font-size         : 1rem;
+    font-weight       : bold;
+    color             : #666;
+    width             : 250px;
+    margin            : 10px 20px;
+    -webkit-box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.07);
+    box-shadow        : 0px 8px 10px -5px rgba(0, 0, 0, 0.07);
+    position          : relative;
+  }
+  
+  .form-div input:focus {
+    outline           : none;
+    -webkit-box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.067), 8px 4px 10px -5px rgba(0, 0, 0, 0.067), -8px 4px 10px -5px rgba(0, 0, 0, 0.067);
+    box-shadow        : 0px 8px 10px -5px rgba(0, 0, 0, 0.067), 8px 4px 10px -5px rgba(0, 0, 0, 0.067), -8px 4px 10px -5px rgba(0, 0, 0, 0.067);
+  }
+  
+  .form-div input::-webkit-input-placeholder {
+    color: #aaa;
+  }
+  
+  .form-div input:-ms-input-placeholder {
+    color: #aaa;
+  }
+  
+  .form-div input::-ms-input-placeholder {
+    color: #aaa;
+  }
+  
+  .form-div input::placeholder {
+    color: #aaa;
+  }
+  
+  .form-div textarea {
+    background-color  : #fff;
+    padding           : 9px 15px;
+    -webkit-transition: all linear 0.3s;
+    transition        : all linear 0.3s;
+    border            : none;
+    border-bottom     : 2.3px solid #26f;
+    border-radius     : 3px;
+    font-family       : 'Segoe UI';
+    font-size         : 1rem;
+    font-weight       : bold;
+    color             : #666;
+    width             : 250px;
+    margin            : 10px 20px;
+    -webkit-box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.07);
+    box-shadow        : 0px 8px 10px -5px rgba(0, 0, 0, 0.07);
+    width             : 80%;
+    resize            : none;
+  }
+  
+  .form-div textarea:focus {
+    outline           : none;
+    -webkit-box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.067), 8px 4px 10px -5px rgba(0, 0, 0, 0.067), -8px 4px 10px -5px rgba(0, 0, 0, 0.067);
+    box-shadow        : 0px 8px 10px -5px rgba(0, 0, 0, 0.067), 8px 4px 10px -5px rgba(0, 0, 0, 0.067), -8px 4px 10px -5px rgba(0, 0, 0, 0.067);
+  }
+  
+  .form-div textarea::-webkit-input-placeholder {
+    color: #aaa;
+  }
+  
+  
+  
+  .form-div textarea:-ms-input-placeholder {
+    color: #aaa;
+  }
+  
+  .form-div textarea::-ms-input-placeholder {
+    color: #aaa;
+  }
+  
+  .form-div textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .form-div input[type="button"],
+  .form-div button,
+  .form-div .btn {
+    border            : 2px solid white;
+    margin            : 10px 0;
+    text-decoration   : none;
+    display           : inline-block;
+    width             : auto;
+    margin            : 10px 20px;
+    padding           : 10px 24px;
+    -webkit-transition: all linear 0.3s;
+    transition        : all linear 0.3s;
+    border-radius     : 4px;
+    color             : #555;
+    font-family       : 'Segoe UI';
+    font-size         : 1rem;
+    font-weight       : bold;
+    background-color  : #29f;
+    color             : whitesmoke;
+    -webkit-box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.15), 8px 4px 10px -5px rgba(0, 0, 0, 0.15), -8px 4px 10px -5px rgba(0, 0, 0, 0.15);
+    box-shadow        : 0px 8px 10px -5px rgba(0, 0, 0, 0.15), 8px 4px 10px -5px rgba(0, 0, 0, 0.15), -8px 4px 10px -5px rgba(0, 0, 0, 0.15);
+  } 
+  
+   .form-div input[type="button"]:focus,
+  .form-div button:focus,
+  .form-div .btn:focus {
+    outline         : none;
+    background-color: #48f;
+    border          : 3px solid white;
+    font-size       : 1.027rem;
+  } 
+  
+   .form-div input[type="button"]:hover,
+  .form-div button:hover,
+  .form-div .btn:hover {
+    background-color  : #26f;
+    -webkit-box-shadow: 0px 8px 13px -5px rgba(0, 0, 0, 0.3), 8px 4px 11px -5px rgba(0, 0, 0, 0.3), -8px 4px 11px -5px rgba(0, 0, 0, 0.3);
+    box-shadow        : 0px 8px 13px -5px rgba(0, 0, 0, 0.3), 8px 4px 11px -5px rgba(0, 0, 0, 0.3), -8px 4px 11px -5px rgba(0, 0, 0, 0.3);
+  } 
+  
+   .form-div input[type="button"]:active,
+  .form-div button:active,
+  .form-div .btn:active {
+    background-color: #7700ff;
+    color           : white;
+  }
+  
+  .form-div fieldset {
+    display           : inline-block;
+    padding           : 20px 40px;
+    border            : none;
+    background-color  : transparent;
+    background-color  : #fff;
+    border-radius     : 3.5px;
+    margin            : 60px 0;
+    -webkit-box-shadow: 0px 30px 30px -10px rgba(0, 0, 0, 0.25), 10px 17px 17px -5px rgba(0, 0, 0, 0.08), -10px 17px 17px -5px rgba(0, 0, 0, 0.08);
+    box-shadow        : 0px 30px 30px -10px rgba(0, 0, 0, 0.25), 10px 17px 17px -5px rgba(0, 0, 0, 0.08), -10px 17px 17px -5px rgba(0, 0, 0, 0.08);
+  }
+  
+  .form-div fieldset legend {
+    position      : relative;
+    top           : 2.5rem;
+    text-align    : center;
+    font-size     : 2rem;
+    font-weight   : bold;
+    text-transform: capitalize;
+    color         : rgba(0, 0, 0, 0.55);
+    font-family   : Verdana;
+    margin-bottom : 20px;
+  }
+  
+  .form-div fieldset p {
+    color      : #666;
+    font-size  : 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+  }
+  
+  
+  .form-div .border-top {
+    border-bottom: 2px solid rgba(187, 187, 187, 0.5);
+    border-radius: 5px;
+    margin       : 20px 0;
+  }
+  
+  .form-div .title {
+    font-size     : 1.3rem;
+    letter-spacing: 1px;
+    color         : #888;
+    margin-top    : 25px;
+    margin-bottom : 10px;
+  }
+  
+  .form-div .title::before {
+    content       : "--------------- ";
+    letter-spacing: -3px;
+  }
+  
+  .form-div .title::after {
+    content       : " ---------------";
+    letter-spacing: -3px;
+  }
+  
+  .form-div .title-u {
+    font-size      : 1.3rem;
+    letter-spacing : 1px;
+    text-decoration: underline;
+    color          : #888;
+    margin-top     : 25px;
+    margin-bottom  : 10px;
+  }
+  
+  @media (max-width: 677px) {
+    .form-div fieldset {
+      width: 97%;
+    }
+  
+    .form-div select,
+    .form-div input,
+    .form-div textarea {
+      display      : block;
+      width        : 80%;
+      margin       : 10px auto;
+      margin-top   : 10px !important;
+      margin-bottom: 10px;
+    }
+  
+    .form-div input[type="button"],
+    .form-div button, 
+    .form-div .btn {
+      margin-top: 10px !important;
+    }
+  } 
+  
+  
+  .small {
+    padding: 5px 15px;
+  }
+  
+  .left {
+    display   : block;
+    width     : 100%;
+    text-align: left;
+  }
+  
+  .right {
+    display   : block;
+    width     : 100%;
+    text-align: right;
+  }
+  
+  .center {
+    display   : block;
+    width     : 100%;
+    text-align: center;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none!important;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield!important;
+  }
+  
